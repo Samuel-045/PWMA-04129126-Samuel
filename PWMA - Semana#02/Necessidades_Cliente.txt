@@ -1,0 +1,9 @@
+Descrição das necessidades do cliente.
+
+O cliente que irá usar a plataforma de marketing, necessita compartilhar seu trabalho e suas ideias com as pessoas.
+A plataforma de marketing visa ajudar no controle das redes socias, coletando dados dos seguidores, coletando dados dos concorrentes,
+e dados dos possíveis futuros seguidores.A plataforma também irá auxiliar os criadores de conteúdo nas suas postagens,
+como as postagens agendadas ou emails enviados, desta maneira, a rotina do criador de conteúdo fica mais organizada e com maior facilidade
+para futuras mudanças ou planos.
+Portanto, para o criador de conteúdo, é de extrema importância a plataforma de marketing digital, auxiliando-o para atingir o ápice do
+seu trabalho, ancançando inúmeras pessoas.
