@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   
+body{
+    background: rgb(150, 157, 248) ;
+    
+}
+
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(56, 68, 235);
+}
+
+header li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header a:hover{
+    color: white;
+    transition: all 0.5s;
+}
+
+main,
+footer{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 70%;
+}
+
+article h2,
+article h3,
+article h4{
+    margin:10px 0;
+}
+
+aside{
+    width: 20%;
+}
+
+li{
+    list-style:  none;
+    padding: 10px 0;
+}
+
+/*---------------------------------------------------------Outras paginas-----------------------------------------------------*/
+
+.mainCadastro{
+    justify-content: center;
+}
+
+.mainCadastro .formCadastro{
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.mainCadastro .formCadastro label{
+    margin: 10px 0;
+}
+
+aside form,
+.mainCadastro form{
+    display: flex;
+    flex-direction: column;
+}
+
+aside form input,
+.mainCadastro form input{
+    width: 100%;
+    padding: 2px;
+}
+
+aside form .submit,
+.mainCadastro form .submit{
+    width: initial;
+    width: 50%;
+    margin: 10px 0;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
