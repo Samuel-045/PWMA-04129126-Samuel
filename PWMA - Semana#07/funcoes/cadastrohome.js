@@ -45,6 +45,4 @@ function cadastrohome() {
         alert('Voce se cadastrou com sucesso!!');
     }
 
-
 }
-
