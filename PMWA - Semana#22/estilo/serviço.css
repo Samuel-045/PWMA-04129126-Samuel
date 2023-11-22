@@ -1,0 +1,223 @@
+@font-face {
+    font-family: fonte_logo;
+    src: url(../Fontes/monof55.ttf);
+}
+
+@font-face {
+    font-family: fonte_servicos;
+    src: url(../Fontes/Franchise.ttf);
+}
+
+@font-face {
+    font-family: fonte_servicosd;
+    src: url(../Fontes/Zector.ttf);
+}
+
+
+@font-face {
+    font-family: fonte_botao;
+    src: url(../Fontes/monof55.ttf);
+}
+
+@font-face {
+    font-family: fonte_li;
+    src: url(../Fontes/monof55.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #B9E1DF;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo {
+    display: flex;
+    align-content: space-between;
+}
+
+.Logo h1 {
+    font-family: principal;
+}
+
+
+.titulo {
+    color: black;
+    font-size: 20px;
+    font-family: fonte_logo;
+    padding-top: 24px;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header li {
+    font-size: 17px;
+    font-family: fonte_li;
+    list-style-type: none;
+    display: inline;
+    margin: 0px 50px;
+
+}
+
+header a {
+    font-size: 17px;
+    font-family: fonte_li;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+header a:hover {
+    padding: 15px;
+    color: white;
+    background-color: #1d383a;
+    transition: all 0.5s;
+}
+
+main {
+    background-image: url(../imagens/Group\ 1\ \(1\).png);
+    height: 1000px;
+    background-size: auto;
+    background-position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Serviços {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container li {
+    color: black;
+    font-size: 20px;
+    font-family: fonte_logo;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px;
+}
+
+.container ul {
+    padding-bottom: 20px;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-family: fonte_servicos;
+    color: black;
+    padding: 15px 70px;
+    margin-bottom: 60px;
+    background-color: rgb(49, 75, 80);
+    border-radius: 10px;
+    box-shadow: 0px -8px 4px 0px rgba(0, 0, 0, 0.25), 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.retanguloC {
+    padding: 10px;
+    margin: 50px;
+    width: 350px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 46px;
+    box-shadow: 0px -14px 4px 0px rgba(0, 0, 0, 0.25), 0px 14px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.retanguloC h2 {
+    font-family: fonte_servicosd;
+    color: black;
+
+}
+
+.retanguloA {
+    margin: 50px;
+    margin-bottom: 200px;
+    width: 350px;
+    height: 516.547px;
+    background-color: white;
+    border-radius: 46px;
+    box-shadow: 0px -14px 4px 0px rgba(0, 0, 0, 0.25), 0px 14px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.retanguloB {
+    margin: 50px;
+    margin-bottom: 200px;
+    width: 350px;
+    height: 516.547px;
+    background-color: white;
+    border-radius: 46px;
+    box-shadow: 0px -14px 4px 0px rgba(0, 0, 0, 0.25), 0px 14px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.meu-botao {
+    font-family: fonte_botao;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.meu-botao:hover {
+    background-color: rgb(49, 75, 80);
+    color: white;
+    transition: all 0.5s
+}
+
+footer {
+    font-family: fonte_li;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-color: #1d383a;
+    box-shadow: 0px -7px 4px 0px rgba(14, 16, 16, 0.30), 0px 7px 4px 0px rgba(0, 0, 0, 0.25);
+}

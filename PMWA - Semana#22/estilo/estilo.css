@@ -1,0 +1,250 @@
+@font-face {
+    font-family: fonte_logo;
+    src: url(../Fontes/monof55.ttf);
+}
+
+@font-face {
+    font-family: fonte_li;
+    src: url(../Fontes/monof55.ttf);
+}
+
+@font-face {
+    font-family: fonte_servicos;
+    src: url(../Fontes/porter-sans-inline-block.ttf);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #B9E1DF;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo {
+    display: flex;
+    align-content: space-between;
+}
+
+.Logo h1 {
+    font-family: principal;
+}
+
+
+.titulo {
+    font-size: 20px;
+    font-family: fonte_logo;
+    padding-top: 24px;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header li {
+    font-size: 17px;
+    font-family: fonte_li;
+    list-style-type: none;
+    display: inline;
+    margin: 0px 50px;
+
+}
+
+header a {
+    font-size: 17px;
+    font-family: fonte_li;
+    text-decoration: none;
+    color: #233534;
+    cursor: pointer;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+header a:hover {
+    padding: 15px;
+    color: white;
+    background-color: #1d383a;
+    transition: all 0.5s;
+}
+
+main {
+    background-image: url(../imagens/Group\ 1\ \(1\).png);
+    height: 1824px;
+    background-size: auto;
+    background-position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.retangulo {
+    padding: 150;
+    width: 826px;
+    height: 390px;
+    background-color: white;
+    border-radius: 46px;
+    box-shadow: 0px -14px 4px 0px rgba(0, 0, 0, 0.25), 0px 14px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.retangulob {
+    margin-bottom: 300px;
+    width: 1158px;
+    height: 452px;
+    background-color: white;
+    border-radius: 46px;
+    box-shadow: 0px -14px 4px 0px rgba(0, 0, 0, 0.25), 0px 14px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.retangulob h1 {
+    color: black;
+    font-family: fonte_servicos;
+}
+
+.flashy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: fonte_servicos;
+}
+
+.flashy h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.flashy h2 {
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 4px #B9E1DF;
+}
+
+.flashy h3 {
+    font-size: 10px;
+    color: black;
+    text-shadow: 2px 2px 4px #B9E1DF;
+}
+
+.flashy p {
+    color: black;
+    font-family: fonte_li;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.retangulo h1 {
+    color: black;
+    text-shadow: 2px 2px 4px #B9E1DF;
+}
+
+.retangulo p {
+    color: black;
+}
+
+.meio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circulos {
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.circulo {
+    margin: 50px;
+    width: 136px;
+    height: 136px;
+    background-color: #1d383a;
+    border-radius: 100px;
+    box-shadow: 0px -14px 4px 0px rgba(0, 0, 0, 0.25), 0px 14px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.circulo i {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.Textos {
+    color: black;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    font-size: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.Textos h1 {
+    color: black;
+}
+
+
+.mensagem {
+    font-family: fonte_servicos;
+}
+
+.mensagem h1 {
+    font-size: 50px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 2px white;
+    font-family: fonte_servicos;
+}
+
+.mensagem h2 {
+    font-size: 50px;
+    margin-left: 200px;
+    text-shadow: 2px 2px 2px white;
+    font-family: fonte_servicos;
+}
+
+.mensagem p {
+    margin-left: 30px;
+    font-family: fonte_li;
+}
+
+
+footer {
+    font-family: fonte_li;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-color: #1d383a;
+    box-shadow: 0px -7px 4px 0px rgba(14, 16, 16, 0.30), 0px 7px 4px 0px rgba(0, 0, 0, 0.25);
+}

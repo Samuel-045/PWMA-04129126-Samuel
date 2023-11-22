@@ -1,0 +1,166 @@
+@font-face {
+    font-family: fonte_logo;
+    src: url(../Fontes/monof55.ttf);
+}
+
+@font-face {
+    font-family: fonte_li;
+    src: url(../Fontes/monof55.ttf);
+}
+
+@font-face {
+    font-family: fonte_botao;
+    src: url(../Fontes/monof55.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #B9E1DF;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo {
+    display: flex;
+    align-content: space-between;
+}
+
+.Logo h1 {
+    font-family: principal;
+}
+
+
+.titulo {
+    font-size: 20px;
+    font-family: fonte_logo;
+    padding-top: 24px;
+}
+
+.nav {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header li {
+    font-size: 17px;
+    font-family: fonte_li;
+    list-style-type: none;
+    display: inline;
+    margin: 0px 50px;
+
+}
+
+header a {
+    font-size: 17px;
+    font-family: fonte_li;
+    text-decoration: none;
+    color: #233534;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header a:hover {
+    padding: 15px;
+    color: white;
+    background-color: #1d383a;
+    transition: all 0.5s;
+}
+
+main {
+    background-image: url(../imagens/Group\ 1\ \(1\).png);
+    height: 800px;
+    background-size: contain;
+    background-position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retangulo {
+    padding: 150;
+    width: 450px;
+    height: 516.547px;
+    background-color: white;
+    border-radius: 46px;
+    box-shadow: 0px -14px 4px 0px rgba(0, 0, 0, 0.25), 0px 14px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+div i {
+    color: #233534;
+}
+
+.cadastroForms form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cadastroForms form h1 {
+    color: black;
+    font-size: 30px;
+    font-family: fonte_li;
+    text-align: center;
+}
+
+.inputs {
+    border-radius: 5px;
+    background: #1d383a;
+    box-shadow: 0px -7px 4px 0px rgba(14, 16, 16, 0.30), 0px 7px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+    outline: none;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+
+.inputs:focus {
+    border-color: #B9E1DF;
+}
+
+.meu-botaoD {
+    margin-left: 30px;
+    font-family: fonte_botao;
+    padding: 10px 50px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 1s;
+}
+
+.meu-botaoD:hover {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+footer {
+    font-family: fonte_li;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-color: #1d383a;
+    box-shadow: 0px -7px 4px 0px rgba(14, 16, 16, 0.30), 0px 7px 4px 0px rgba(0, 0, 0, 0.25);
+}
